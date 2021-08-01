@@ -1,0 +1,142 @@
+body{
+    margin: 5px;
+}
+.padding p{
+    border: 20px red solid;
+    color:black;
+}
+a{
+    text-decoration:none;
+    color:lawngreen;
+}
+a:hover{
+    color:maroon;
+}
+a:active{
+    color:snow;
+
+}
+a:visited{
+    color: violet;
+}
+
+.cate{
+    border: 3px solid red;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.cate ul{
+    padding: 15px;
+    list-style: square;/* This is a single-line comment */
+    list-style: none;
+
+}
+.cate li{
+    padding-bottom: 10px;
+    border-bottom:dotted 1px;
+    margin-left: 10px;
+    
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 20px;
+}
+.form-group label{
+    display: block;
+}
+.my-form button [type="text"], .my-form="textarea"{
+    padding: 8px;
+    width: 100%;
+}
+.button{
+    background-color: crimson;
+}
+.button:hover{
+    color: darkkhaki;
+}
+.block{
+    width: 33%;
+    float:left;
+    border:2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    display: flex;
+    width: 30%;
+    background-color:chartreuse;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.p-box{
+    border: 1px solid green;
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+    background-image: url('../crush-course-html-css/images/cheak.jpg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center top;
+}
+.p-box h1{
+    position: relative;
+    top: 40px;
+    float: left;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 400px;
+    right: 300px;
+}
+.fix-button{
+    position: fixed;
+    top: 400px;
+}
+.my-list li:first-child{
+background: tomato;
+}
+.my-list li:nth-child(5){
+    background: tomato;
+    }
+    #main-header{
+
+    }
+    .website{
+        background-color: brown;
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: cornsilk;
+        line-height: 1.6em;
+        margin: 10px;
+    }
+    .container{
+        width:80%;
+        margin:auto;
+        overflow:hidden;
+    }
+#main-header{
+    background-color: 
+    red;
+    color: seashell;
+    padding-right: 25px;
+}
+#navbar{
+    background-color: slateblue;
+    color: springgreen;
+}
+#navbar li{
+    display: inline;
+    padding-right: 16px;
+    padding-left: 5px;
+}
